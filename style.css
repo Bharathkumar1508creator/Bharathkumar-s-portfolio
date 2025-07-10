@@ -1,0 +1,214 @@
+*{
+    background-color:aqua;
+    color: black;
+}
+.one{
+background-color: white;
+    color:black;
+    padding-top:10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;;
+    border-color:aqua;
+    border-width:5px;
+    border-style: groove;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    font-size: medium;
+    font-style: calc(20px + 2vw);
+    font-variant: small-caps;
+  }
+  .hr{
+    background-color: black;
+  }
+.container{
+  display: flexbox;
+}
+nav{
+  background-color: black;
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding:center;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 50px;
+  border-color: white;
+  border-width: 5px;
+  border-style: groove;
+  align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    font-size: medium;
+    font-style: calc(20px + 2vw);
+    font-variant: small-caps;
+
+
+}
+nav ul{
+  list-style-type:none;
+  
+  display:flex;
+}
+nav ul li{
+ margin-top: 10px;;
+}
+nav ul li a{
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+nav ul li a:hover{
+  color: white;
+}
+.nav ul li p{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+.photo-container{
+  display: flex;
+  width:300%; /* 2 images=200*/
+  animation: flip 5s infinite;
+}
+.photo-container img{
+  width:25vw;
+  height:auto;
+}
+@keyframes flip{
+  50% {trasnform: translateX(100vw);}
+  50% {transform: translateX(100vw);}
+  60% {transform: translateX(200vw);}
+  translateX(-200vw);
+  100% {transform: translateX(50);}
+}
+.three{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  border-color: aqua;
+  border-width: 5px;
+  border-style: groove;
+  text-decoration:dotted;
+  text-align: center;
+  align-items: center;
+  display:flex;
+    flex-direction: column;
+    font-size: medium;
+    font-style: calc(20px + 2vw);
+    font-variant: small-caps;
+}
+#contact-form{
+  size: 100;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+#contact-form form{
+  display:flexbox;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  border-color: white;
+  border-width: 15px;
+  border-style: solid;
+  font-size: medium;
+  font-style: calc(20px + 2vw);
+  cursor: pointer;
+}
+#contact-form form button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border-style: groove;
+  cursor: pointer;
+}
+.two{
+  background-color: white;
+    color:black;
+    padding-top:10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: 10px;;
+    border-color:aqua;
+    border-width:5px;
+    border-style: groove;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    font-size: medium;
+    font-style: calc(20px + 2vw);
+    font-variant: small-caps;
+}
+.card-title{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: black;
+    color:white;
+    padding-top:10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;;
+    border-color:white;
+    border-width:5px;
+    border-style: groove;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    font-size: medium;
+    font-style: calc(20px + 2vw);
+    font-variant: small-caps;
+    font-decoration:dotted
+}
+.card-subtitle{
+  font-size: 1.5em;
+  color: white !important;
+  margin-bottom: 20px;
+  font-style: dotted;
+}
